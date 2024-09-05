@@ -1,0 +1,165 @@
+body {
+    
+    
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(22, 22, 22);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 15px;
+    
+   
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+
+
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color:rgb(9, 9, 9);
+    text-decoration: none ;
+}
+a:hover{
+    color:rgb(190, 34, 146);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(1, 1, 1);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgba(33, 134, 28, 0.848);
+    color: rgb(255, 255, 255);
+}
+
+
+hi{
+    font-weight: 200;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+
+}
+
+
+span{
+    color:rgb(0, 0, 0);
+    max-width: 0px;
+
+}
+
+
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 500px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+ 
+
+}
+
+form [type="submit"]{
+    height: 60px;
+    width: 40%;
+    background-color: rgb(16, 16, 16);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+    
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    
+
+}
+
+button {
+    background-color: #097938; 
+    color: rgb(24, 23, 23); 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 1px; 
+    cursor: pointer; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
+
+footer {
+    
+    color: rgb(0, 0, 0); 
+    text-align: center; 
+    padding: 10px;
+    position: fixed; 
+    width: 100%; 
+    bottom: 0; 
+    left: 450; 
+    box-sizing: border-box; 
+}
+
+
+#contato-page {
+    
+    background-color: #000000;
+    background-image: url(fundo1.png);
+}
